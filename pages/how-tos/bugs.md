@@ -8,7 +8,7 @@ tags:
 ---
 
 ## What not to report
-  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.pixelexperience.org/)
+  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://havoc-os.com/download/)
   - Missing builds
   - Asking for installation help
   - Asking for device support
@@ -18,4 +18,4 @@ tags:
 
 You should attach [Logcats]({{ site.baseurl }}/help/logcat/), if possible.
 
-[Open a new issue](https://issuetracker.pixelexperience.org).
+[Open a new issue](https://issues.havoc-os.com).

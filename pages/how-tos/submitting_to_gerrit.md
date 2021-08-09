@@ -10,15 +10,15 @@ tags:
 
 ## Initial setup
 
-If you haven't yet successfully downloaded the source and generated a build of PixelExperience, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
+If you haven't yet successfully downloaded the source and generated a build of Havoc-OS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
 
-Setup an account on [Gerrit](https://gerrit.pixelexperience.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
+Setup an account on [Gerrit](https://gerrit.havoc-os.com) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
 Now make sure your local git username matches with your Gerrit username:
 
 ```
 git config --global user.email 'you@yourDomain.com'
-git config --global review.gerrit.pixelexperience.org.username "gerritUsername"
+git config --global review.gerrit.havoc-os.com.username "gerritUsername"
 ```
 
 {% include alerts/note.html content="Your Gerrit username is case-sensitive." %}
@@ -49,7 +49,7 @@ The steps above have to be performed only once.
 Go to the root of the source code:
 
 ```
-cd ~/android/pe
+cd ~/android/Havoc-OS
 ```
 
 Setup your build environment:
@@ -64,7 +64,7 @@ The rest of this guide will rely on this being done. You can check the proper ex
 croot
 ```
 
-Your shell will then navigate to the root of the sources, `~/android/pe` or give an error.
+Your shell will then navigate to the root of the sources, `~/android/Havoc-os` or give an error.
 
 
 ## Submitting to Gerrit
@@ -74,12 +74,12 @@ Your shell will then navigate to the root of the sources, `~/android/pe` or give
 Run this command on project path:
 
 ```
-git push ssh://<username>@gerrit.pixelexperience.org:29418/<project> HEAD:refs/for/<branch>
+git push ssh://<username>@gerrit.havoc-os.com:29418/<project> HEAD:refs/for/<branch>
 ```
 
 ### Uploading your changes (using repo)
 
-First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the PixelExperience' Gerrit instance for review. Create your topic branch:
+First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the Havoc-OS' Gerrit instance for review. Create your topic branch:
 
 ```
 repo start <branch name> <project path>
@@ -217,7 +217,7 @@ ssh-keygen -t dsa -C "your@email.com"
 
 ## Getting your submission reviewed/merged
 
-All submitted patches go through a code review process prior to being merged. In addition to peer reviews, certain project members have the capability to merge your changes into PixelExperience.
+All submitted patches go through a code review process prior to being merged. In addition to peer reviews, certain project members have the capability to merge your changes into Havoc-OS.
 To make sure they get informed:
 
 1) Add reviewers:

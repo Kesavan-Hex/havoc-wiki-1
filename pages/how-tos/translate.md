@@ -9,7 +9,7 @@ tags:
 
 ## How to translate
 
-We use [Crowdin](https://crowdin.com/project/pixelexperience) as our translation system. To submit translations you need to create an [account](https://crowdin.com/join), click the desired language and start suggesting translations.
+We use [Crowdin](https://crowdin.com/project/Havoc-OS) as our translation system. To submit translations you need to create an [account](https://crowdin.com/join), click the desired language and start suggesting translations.
 
 A general rule of thumb is: `Quality, not quantity`! If you are unsure about the context of a string or about what it could mean, leave it untouched. It's much better to have the correct English string there instead of having a wrong translation which doesn't make sense to the user.
 
@@ -20,7 +20,7 @@ You seem to speak a language which nobody else does... or there has just been th
 ## I have translated a lot, how do I get these to my device now?
 
 There is (or should be) at least one proofreader for each language (you can apply, if not). Proofreaders will look through the strings and validate those which they think are fitting the context and are of a high-enough quality. In the event that you do not see an active review or acceptance of your (or alternative) suggestions, you can contact one of the proofreaders via the sidebar on the right. To do so, simply type "@" followed by the name and then add the message (e.g. "@NameHere: Please look through my translations on this file").  
-After the validation of the strings, they will be merged into the next official monthly release of PixelExperience.
+After the validation of the strings, they will be merged into the next official monthly release of Havoc-OS.
 
 ## Correcting wrong strings
 
@@ -28,7 +28,7 @@ After the validation of the strings, they will be merged into the next official 
 
 Sometimes you will notice translated strings which seem to be slightly different from what you'd expect or simply wrong. There are various reasons to how this can happen, but still, the only relevant thing is how to improve the translation. Just suggest your translation like you would do for any untranslated string. After saving it you will have the possibility to "Notify the proofreader".
 
-{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [core team members](https://download.pixelexperience.org/about#team) about it." %}
+{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [core team members](https://download.Havoc-OS.com/about#team) about it." %}
 
 ### Original strings
 
@@ -40,7 +40,7 @@ Having the source code and crowdin strings in sync is not an easy job and stuff 
 Generally you need to pay attention to a few things:
 
 1. Strings starting with `@` (very often used in strings like `@string/<something>`) - these are marked as translatable when they shouldn't be. Please use the `issue` checkbox on the right of the screen to notify us.
-2. Strings with `xliff` tags, e.g. `<xliff:g id="name" example="Help improve PixelExperience">%1$s</xliff:g>`: Keep the whole thing untouched and embed it into your translation at an appropriate place.
+2. Strings with `xliff` tags, e.g. `<xliff:g id="name" example="Help improve Havoc-OS">%1$s</xliff:g>`: Keep the whole thing untouched and embed it into your translation at an appropriate place.
    The example is just there to tell you what can be inserted instead of %1$s in the OS so you know where to place it in your translation. There is no need to touch this either.
 
 ## Proofreading
@@ -50,7 +50,7 @@ As a proofreader, you also have to make sure that the submitted strings match th
 
 {% include alerts/note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
 
-Contact one of the managers [here](https://crowdin.com/project/pixelexperience) if you want to be a proofreader.
+Contact one of the managers [here](https://crowdin.com/project/Havoc-OS) if you want to be a proofreader.
 
 Besides the responsibility to only approve strings appropriate for use in the system and to make sure to avoid approving strings mentioned in [What not to translate](#what-not-to-translate), there is another thing that you should pay attention:
 

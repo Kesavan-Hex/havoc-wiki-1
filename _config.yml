@@ -2,10 +2,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-title: PixelExperience Wiki
+title: Havoc wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: The PixelExperience Project
+company_name: The Havoc Project
 # this appears in the footer
 
 host: 127.0.0.1
@@ -62,11 +62,11 @@ sass:
   style: :compressed # You might prefer to minify using :compressed
   sourcemap: true
 
-description: "The PixelExperience Wiki"
+description: "The Havoc Wiki"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://wiki.pixelexperience.org
+url: https://wiki.havoc-os.com
 
 plugins:
   - jekyll-redirect-from

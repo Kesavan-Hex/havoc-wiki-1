@@ -37,10 +37,10 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
 
-{% include alerts/tip.html content="Before this step, you can fork the PixelExperience wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace PixelExperience in the `git clone` command with your GitHub username." %}
+{% include alerts/tip.html content="Before this step, you can fork the Havoc-OS wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace Havoc-OS in the `git clone` command with your GitHub username." %}
 
 ```
-git clone https://github.com/PixelExperience/wiki ~/wiki
+git clone https://github.com/Havoc-OS/wiki ~/wiki
 cd ~/wiki
 ```
 
@@ -130,7 +130,7 @@ This builds the docker image, which should only need to be done once:
 
 ```
 cd ~/wiki
-docker build -t pixelexperience/wiki .
+docker build -t Havoc-OS/wiki .
 ```
 
 #### Edit the wiki
@@ -139,7 +139,7 @@ Each time that you want to edit the wiki, you will need to start a local web ser
 
 ```
 cd ~/wiki
-docker run -p 4000:4000 -v $(pwd):/src -it pixelexperience/wiki
+docker run -p 4000:4000 -v $(pwd):/src -it Havoc-OS/wiki
 ```
 
 At this point you should be able to view the [local Jekyll server](http://127.0.0.1:4000).
@@ -189,4 +189,4 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-You need to open a pull request at [Github](https://github.com/PixelExperience/wiki/) to review proposed changes.
+You need to open a pull request at [Github](https://github.com/Havoc-OS/wiki/) to review proposed changes.

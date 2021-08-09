@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Upgrade PixelExperience on {codename}
+title: Upgrade Havoc-OS on {codename}
 folder: upgrade
 permalink: /devices/{codename}/upgrade/
 device: {codename}

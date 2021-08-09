@@ -89,4 +89,4 @@ and `adb logcat -C` to view logs in colour
 
 ## Need help?
 
-You can find assistance with PixelExperience on [our Telegram group](https://t.me/pixelexperiencechat).
+You can find assistance with Havoc-OS on [our Telegram group](https://t.me/havocofficial).

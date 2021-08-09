@@ -11,7 +11,7 @@ tags:
 
 [Gerrit](https://code.google.com/p/gerrit/) is a source code review system developed by Google for use with Android (though it can be applied to any type of project). You must use Gerrit to submit code changes, in case you find an error in the source code, you want to contribute with good new features or even if you believe you have a better way of implementing a certain feature.
 
-Check out PixelExperience's review system - [Gerrit](https://gerrit.pixelexperience.org).
+Check out PixelExperience's review system - [Gerrit](https://gerrit.Havoc-os.com).
 
 There you can see what has been recently merged into the codebase. More interestingly, you can see what people have been submitting for review. If there's something you want to try, you can actually test it by merging it into your code and building. It's a simple matter.
 
@@ -43,7 +43,7 @@ The possibility of adding a comment doesn't mean you should add your opinion on 
 Go to the root of the source code:
 
 ```
-cd ~/android/pe
+cd ~/android/Havoc-OS
 ```
 
 Setup your build environment:
@@ -58,18 +58,18 @@ The rest of this guide will rely on this being done. You can check the proper ex
 croot
 ```
 
-Your shell will then navigate to the root of the sources, `~/android/pe` or give an error.
+Your shell will then navigate to the root of the sources, `~/android/Havoc-OS` or give an error.
 
 
 ### Retrieving an existing commit
 
-Let's take a [example commit](https://gerrit.pixelexperience.org/#/c/3221/).
+Let's take a [example commit](https://gerrit.Havoc-OS.com/#/c/3221/).
 
 To add this patch to your local build source code, you can use the `repopick` command:
 
 If you type `repopick -h` you'll get a list of supported commands, such as the ability to pick multiple patches or ranges of patches in a single command.
 
-Start by noting down the URL of the proposed commit. In the above example, it's [https://gerrit.pixelexperience.org/#/c/3221/](https://gerrit.pixelexperience.org/#/c/3221/). That number, `3221` will come in handy in a second.
+Start by noting down the URL of the proposed commit. In the above example, it's [https://gerrit.Havoc-OS.com/#/c/3221/](https://gerrit.Havoc-OS.com/#/c/3221/). That number, `3221` will come in handy in a second.
 
 The patch should be applied automatically after typing:
 
@@ -117,4 +117,4 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 [Git and repo overview](https://source.android.com/source/developing)
 
-[Gerrit Documentation](https://gerrit.pixelexperience.org/Documentation/index.html)
+[Gerrit Documentation](https://gerrit.Havoc-OS.com/Documentation/index.html)

@@ -7,8 +7,8 @@
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 {% endif %}
 
-## Get PixelExperience for the {{ device.vendor }} {{ device.name }}
-[Get the builds here](https://download.pixelexperience.org/{{ device.codename }})
+## Get Havoc-OS for the {{ device.vendor }} {{ device.name }}
+[Get the builds here](https://havoc-os.com/device{{ device.codename }})
 
 ## Guides
 
@@ -17,7 +17,7 @@
 {%- if device.firmware_update %}
 - [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same PixelExperience version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
+- [Update to a newer build of the same Havoc-OS version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 - [Upgrade to a higher Android version (e.g. Android 10 -> Android 11)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 
 {% if device.note_show and device.note_show == true %}
@@ -40,4 +40,4 @@
 
 ## Find help online
 
-You can find assistance with PixelExperience on [our Telegram group](https://t.me/pixelexperiencechat).
+You can find assistance with Havoc-OS on [our Telegram group](https://t.me/havocofficial).

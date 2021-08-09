@@ -16,7 +16,7 @@ Unpack the downloaded file to a destination of your choice, then follow the inst
 
 ## Prepare a project file
 
-Open a shell and navigate to the root folder of your Android sources, e.g. `~/android/pe`.
+Open a shell and navigate to the root folder of your Android sources, e.g. `~/android/Havoc-OS`.
 In case environment functions and variables are not yet loaded, type:
 
 ```
@@ -33,16 +33,16 @@ make idegen && development/tools/idegen/idegen.sh
 
 {% include alerts/note.html content="This can take some time while it goes through your tree and generates an Android Studio project based on it." %}
 
-In case you are developing on multiple branches or plan to do so (otherwise skip the next step), do the following (replace every occurrence of `pixelexperience` with your desired naming scheme):
+In case you are developing on multiple branches or plan to do so (otherwise skip the next step), do the following (replace every occurrence of `Havoc-OS` with your desired naming scheme):
 
 ```
-mv android.ipr pixelexperience.ipr
-mv android.iml pixelexperience.iml && ln -s pixelexperience.iml android.iml
+mv android.ipr Havoc-OS.ipr
+mv android.iml Havoc-OS.iml && ln -s Havoc-OS.iml android.iml
 ```
 
 ## Prepare Android Studio
 
-Android Studio struggles to parse the huge PixelExperience / Android sources and requires some different settings than the defaults. Therefore, before starting actual development, it is necessary to change some of those.
+Android Studio struggles to parse the huge Havoc-OS / Android sources and requires some different settings than the defaults. Therefore, before starting actual development, it is necessary to change some of those.
 
 ### Configure memory
 
@@ -87,5 +87,5 @@ Now, after all the previous steps are done, you can actually start developing an
 
 ### Contribute!
 
-After you have modified the sources and tested your change, you can contribute to PixelExperience by [submitting your work]({{ "help/submit-patch/" | relative_url}}).
+After you have modified the sources and tested your change, you can contribute to Havoc-OS by [submitting your work]({{ "help/submit-patch/" | relative_url}}).
 
